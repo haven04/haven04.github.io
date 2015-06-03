@@ -3,15 +3,19 @@
  */
 .site-header {
     border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
+    padding-top: 3%;
     // Positioning context for the mobile navigation icon
     position: relative;
+
+    .wrapper {
+    border-bottom: 1px solid $grey-color-light;
+    }
 }
 
 .site-title {
-    font-size: 26px;
+    font-size: 32px;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
@@ -92,8 +96,11 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    .wrapper {
+        padding-top: 10px;
+        border-top: 1px solid $grey-color-light;
+    }
 }
 
 .footer-heading {
@@ -166,7 +173,7 @@
 }
 
 .page-heading {
-    font-size: 20px;
+    //font-size: 32px;
 }
 
 .post-list {
@@ -176,18 +183,23 @@
     > li {
         margin-bottom: $spacing-unit;
     }
-}
 
-.post-meta {
-    font-size: $small-font-size;
-    color: $grey-color;
-}
+    .post-meta {
+        font-size: $small-font-size;
+        color: $grey-color;
+    }
 
-.post-link {
-    display: block;
-    font-size: 24px;
-}
+    .post-link {
+        display: block;
+        font-size: 24px;
+    }
 
+    h2 {
+    margin-top:0px;
+
+    }
+
+}
 
 
 /**
@@ -198,27 +210,21 @@
 }
 
 .post-title {
-    font-size: 42px;
-    letter-spacing: -1px;
     line-height: 1;
-
-    @include media-query($on-laptop) {
-        font-size: 36px;
-    }
+    letter-spacing: -1px;
 }
 
 .post-content {
     margin-bottom: $spacing-unit;
 
-    h2 {
+    h1 {
         font-size: 32px;
-
         @include media-query($on-laptop) {
             font-size: 28px;
         }
     }
 
-    h3 {
+    h2 {
         font-size: 26px;
 
         @include media-query($on-laptop) {
@@ -226,11 +232,19 @@
         }
     }
 
-    h4 {
+    h3 {
         font-size: 20px;
 
         @include media-query($on-laptop) {
             font-size: 18px;
+        }
+    }
+
+    h4 {
+        font-size: 18px;
+
+        @include media-query($on-laptop) {
+            font-size: 14px;
         }
     }
 }
