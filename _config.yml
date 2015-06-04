@@ -15,6 +15,6 @@ url: "http://jiminis.me" # the base hostname & protocol for your site
 # category-list: [projects, editors, math, unix]
 markdown: kramdown
 
-gems: ['jekyll-less', 'jekyll-redirect-from']
+gems: ['jekyll-redirect-from']
 
 category-projects: 'projects'

@@ -1,3 +1,6 @@
+---
+---
+
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 @import url(http://fonts.googleapis.com/css?family=Fjalla+One);
 @import url(http://fonts.googleapis.com/css?family=Slabo+27px|Slabo+13px&subset=latin,latin-ext);
@@ -60,13 +63,13 @@ header, footer
 
     a
     {
-        @hyperlink-color: #337ab7;
-        @hyperlink-color-visited: #E8880C; 
+        $hyperlink-color: #337ab7;
+        $hyperlink-color-visited: #E8880C; 
         transition: all 0.2s;
 
         &:hover
         {
-            color: @hyperlink-color-visited;
+            color: $hyperlink-color-visited;
             text-decoration: none;
         }
     }
