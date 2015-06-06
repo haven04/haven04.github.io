@@ -4,17 +4,28 @@ title: Projects
 permalink: /projects/
 ---
 <div class="home">
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-heading">Things I've Done</h1>
   <ul class="post-list">
     {% for post in site.posts%}
     {% if post.categories contains site.category-projects %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <span class="post-meta">{{ post.categories }}</span>
+        <span class="post-meta post-meta-categories"> Categories: {{ post.categories | join: ', ' }} </span>
 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+        <div>
+        {% assign images = post.content | split:'<img' %}
+        {% if images[1] contains "src" %}
+            {% assign html = images[1] | split:'/>' | first %}
+            <div class="wrapper-excerpt-img"><img {{ html }} class="img-excerpt"/></div>
+        {% endif %}
+          <div class="wrapper-excerpt-text">
+          {{post.excerpt | strip_html | truncatewords:30}}
+          </div>
+        </div>
+        <div style="clear:both"></div>
       </li>
     {% endif %}
     {% endfor %}
@@ -22,3 +33,4 @@ permalink: /projects/
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
+
