@@ -11,7 +11,13 @@
     padding: $spacing-unit 0;
     // Positioning context for the mobile navigation icon
     position: relative;
+    font-family: $header-font-family2;
 
+    h1, h2, h3, h4, h5, h6
+    {
+        font-family: $header-font-family;
+        font-weight: normal;
+    }
     .wrapper {
     margin-top: 2 * $spacing-unit;
     border-bottom: 1px solid $grey-color-light;
@@ -35,6 +41,7 @@
         &:visited { color: $hyperlink-color; }
     }
 }
+
 
 
 .site-title {
@@ -75,7 +82,8 @@
     // padding: $spacing-unit 0;
     font-size: $small-font-size;
     .wrapper {
-        padding: $spacing-unit 0;
+        // padding: $spacing-unit 0;
+        padding: $spacing-unit $spacing-unit;
         border-top: 1px solid $grey-color-light;
     }
     a{
@@ -207,6 +215,15 @@
         }
     }
 
+    h5 {
+        font-size: 1.1 * $base-font-size;
+
+        @include media-query($on-laptop) {
+            font-size: 1.1 * $small-font-size;
+        }
+    }
+
+
     img
     {
         display: block;
@@ -234,5 +251,67 @@
     {
         font-size: $small-font-size;
         margin-left: $small-font-size;
+    }
+}
+abbr 
+{
+    border-bottom: 1px dotted $grey-color;
+}
+
+.resume-section
+{
+    margin-top: $spacing-unit;
+    margin-bottom: $spacing-unit * 3;
+    // font-family: $sans-serif-font-family;
+    h1, h2, h3, h4, h5, h6
+    {
+        font-family: $title-font-family;
+    }
+    q
+    { font-style: oblique; }
+    .resume-section-title
+    {
+        font-weight: 600;
+        // border-bottom: 1px solid;
+        background-color: $grey-color-light;
+        margin: $spacing-unit 0;
+        padding-left: $spacing-unit/2;
+    }
+}
+.resume-indie
+{
+    >li
+    {
+        margin-bottom: $spacing-unit/2;
+    }
+    .resume-indie-title
+    {
+        font-family: $title-font-family;
+        margin-bottom: 0;
+    }
+}
+.resume-addinfo
+{
+    font-size:$base-font-size;
+    color:$grey-color;
+    font-weight: 400;
+    // margin-left: $spacing-unit;
+}
+.resume-item-blk
+{
+    margin: $spacing-unit $spacing-unit/2 $spacing-unit * 2 $spacing-unit/2;
+
+    .resume-item-title
+    {
+        font-family: $title-font-family;
+        font-weight: 600;
+        line-height: 1.2;
+        // font-size: $base-font-size;
+    }
+    .resume-item-description
+    {
+        color: $grey-color-dark;
+        font-size: $base-font-size;
+        margin-left: $spacing-unit * 2;
     }
 }

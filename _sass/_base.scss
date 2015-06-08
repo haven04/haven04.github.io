@@ -16,6 +16,11 @@ dl, dd, ol, ul, figure {
     font-weight: 300;
 }
 
+h1, h2, h3, h4, h5, h6
+{
+    font-family: $title-font-family;
+    font-weight: 600;
+}
 /**
  * Basic styling
  */
