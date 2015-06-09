@@ -247,10 +247,15 @@
 
 .contact
 {
+    margin-top: 3 * $spacing-unit;
     .contact-addr
     {
         font-size: $small-font-size;
         margin-left: $small-font-size;
+    }
+    .contact-title
+    {
+        margin-bottom: $spacing-unit;
     }
 }
 abbr 

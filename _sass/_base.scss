@@ -112,7 +112,8 @@ a {
     }
 
     &:visited {
-        color: darken($hyperlink-color, 15%);
+        color: $hyperlink-color;
+        // color: darken($hyperlink-color, 15%);
     }
 }
 
