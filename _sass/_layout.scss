@@ -223,12 +223,26 @@
         }
     }
 
-
     img
     {
         display: block;
         align:center;
         margin: $spacing-unit * 2 auto;
+    }
+    .post-content-blk
+    {
+        margin: $spacing-unit * 4 auto;
+        margin-left: $spacing-unit;
+    }
+
+    .post-annotation
+    {
+        color: $grey-color;
+    }
+
+    p
+    {
+        margin: $spacing-unit auto;
     }
 }
 
@@ -265,8 +279,7 @@ abbr
 
 .resume-section
 {
-    margin-top: $spacing-unit;
-    margin-bottom: $spacing-unit * 3;
+    margin: $spacing-unit auto $spacing-unit * 3 auto !important;
     // font-family: $sans-serif-font-family;
     h1, h2, h3, h4, h5, h6
     {
@@ -295,7 +308,7 @@ abbr
         margin-bottom: 0;
     }
 }
-.resume-addinfo
+.resume-annotation
 {
     font-size:$base-font-size;
     color:$grey-color;
@@ -304,7 +317,7 @@ abbr
 }
 .resume-item-blk
 {
-    margin: $spacing-unit $spacing-unit/2 $spacing-unit * 2 $spacing-unit/2;
+    margin: $spacing-unit $spacing-unit/2 $spacing-unit * 2 $spacing-unit/2 !important;
 
     .resume-item-title
     {
