@@ -7,6 +7,7 @@ categories: projects
 
 <img src="{{"/assets/projects/kaist/logo.gif" | prepend: site.baseurl }}" class="post-logo" />
 This article introduces some coursework and other projects I had participated in at KAIST GSCT.
+
 <div style="clear:both"></div>
 
 <!-- more -->

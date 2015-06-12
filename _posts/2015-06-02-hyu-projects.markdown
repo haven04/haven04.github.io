@@ -6,6 +6,7 @@ categories: projects
 ---
 
 <img src="{{"/assets/projects/hyu/symbol.jpg" | prepend: site.baseurl }}" class="post-logo" />During the periods of 2005-2007 and 2010-2012, I had studied Electronic and Computer Engineering at Hanyang University as an undergraduate student. This article introduces some courses I have taken at HYU.
+
 <div style="clear:both"></div>
 
 <!-- more -->
