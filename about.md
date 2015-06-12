@@ -6,9 +6,9 @@ permalink: /about/
 
 ####Hello, I am Jimin.
 
-I am a software engineer have worked in IT startup industries in Korea and Switzerland. 
+I am a software developer have worked in IT startup industries in Korea and Switzerland. 
 
-With a keen interest in multimedia and interactive user experience, I have conducted research on various digital media and HCI topics in KAIST such as audio DSP, musical interfaces, and audiovisual art. 
+Besides my strong interest in software engineering, I have conducted research on various digital media and interactive user experience, Especially related on music and sound, such as audio synthesis, musical interfaces, and audiovisual art. 
 
 <div class="contact">
 <h5 class="contact-title">If you have interest in more details, please feel free to contact me via below.</h5>

@@ -9,18 +9,14 @@ permalink: /projects/
     {% for post in site.posts%}
     {% if post.categories contains site.category-projects %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <span class="post-meta post-meta-categories"> Categories: {{ post.categories | join: ', ' }} </span>
-
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
         <div>
-        {% assign images = post.content | split:'<img' %}
-        {% if images[1] contains "src" %}
-            {% assign html = images[1] | split:'/>' | first %}
-            <div class="wrapper-excerpt-img"><img {{ html }} class="img-excerpt"/></div>
-        {% endif %}
+          {% if post.thumbnail%}
+          <div class="wrapper-excerpt-img"><img src="{{thumbnail}}" class="img-excerpt"/></div>
+          {% endif %}
+
           <div class="wrapper-excerpt-text">
           {{post.excerpt | strip_html | truncatewords:30}}
           </div>
