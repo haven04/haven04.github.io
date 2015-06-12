@@ -1,0 +1,49 @@
+---
+layout: post-project
+title:  "TAPIR Sound Tag / TAPIR Guide"
+date:   2015-06-04 15:40:23
+categories: projects 
+thumbnail: /assets/projects/tapir/tapir_spectrum.png
+---
+
+"TAPIR Sound Tag" is a software framework that allows users to communicate data signals through "Theoritically Audible, but Practically Inaudible Range" (TAPIR) of sound. This can be used for developing various applications. 
+
+<!-- more -->
+
+### TAPIR Sound Tag
+
+![TAPIR-Spectrum]({{"/assets/projects/tapir/tapir_spectrum.png" | prepend: site.baseurl }})
+
+"TAPIR Sound Tag" is the patent-pending technology (in South Korea), which allows modern mobile devices to communicate digital data using specific frequency range of sound above human-auditory range.
+
+Using sound as a medium of data transmission has some advantages. With sound, a large broadcasting network can be built instantly without expensive equipments, but only loudspeakers. Moreover, it does not occupy network bandwidth for communication. These properties can be attractive especially in certain situations such as stadiums or concert halls, where a large amount people are and local data network cannot afford all network traffics of them.
+
+
+![Workflow]({{"/assets/projects/tapir/tapir_workflow.jpg" | prepend: site.baseurl }})
+
+It employed techniques widely used in modern communication systems such as OFDM, which is already applied for LTE and DTV. Therefore, faster transmission speed and high-robustness against noise comparing to other similar approaches are achieved. With the system, the devices can send 25 Bytes of data under 860Hz of bandwidth in a second. It means that 8 bytes of (shorten) URL can be transmitted to other devices before 0.3 second. 
+
+The "TAPIR Sound Tag" is developed as a software API supporting multi-platforms (iOS/Android) including SIMD(ARM NEON) instructions, thus application developers can easily adopt this idea to their mobile applications.
+
+### TAPIR Guide - Location-aware Mobile Guide System
+
+As described, "TAPIR Sound Tag" can be applied for various fields. Especially, it allows to build a location based-service with low cost and cheap equipments (loudspeakers and audio players). The one of representative applications of the system is a location-based guide system for exhibition space, namely "TAPIR Guide".
+
+![TAPIR Guide]({{"/assets/projects/tapir/guide_workflow.jpg" | prepend: site.baseurl }})
+
+
+The idea is first suggested in the conference "Museum and the Web 2013". In 2014, this technique is applied for mobile applications for real exhibitions in two museums; *Lee Ungno Museum* in Daejeon, Korea and *Pétit Palais* in Paris, France, in cooperations with museum associations and mobile App. companies. Below videos show how it works.
+
+<div class="post-video">
+<iframe frameborder="0" width="480" height="270" style="align:center" src="//www.dailymotion.com/embed/video/x218ddd" allowfullscreen></iframe>
+User guide for the application in Pétit Palais (French)
+</div>
+
+<div class="post-video">
+<iframe width="480" height="270" src="https://www.youtube.com/embed/OM8yIDJfM-o" frameborder="0" allowfullscreen></iframe>
+Media report by KBS News (Korean)
+</div>
+
+
+If you want to have more information, please contact me through [e-mail](mailto:haven04@gmail.com).
+

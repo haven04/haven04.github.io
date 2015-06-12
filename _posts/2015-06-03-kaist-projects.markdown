@@ -82,6 +82,6 @@ This interactive artwork using multiple mobile phones makes music with movement 
 
 This project was led by Korea Creative Content Agency (Kocca). The goal of this project is to find the optimal recording techniques for Korean traditional musical instruments.
 
-For the project, I researched various recording methods generally used in the field, and applied those methods to record sound of the instruments in different environments. Through experiments and sound spectrum analysis, the most optimal recording methods depending on the environments were suggested.
+For the project, I researched various recording methods generally used in the industry and applied those methods to record sound of the instruments in different environments. Through experiments and sound spectrum analysis, the most optimal recording methods depending on the environments were suggested.
 
 </div>

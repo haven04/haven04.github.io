@@ -254,6 +254,18 @@
 
     }
 }
+.post-video
+{
+    text-align: center;
+    font-size: $small-font-size;
+    color: $grey-color;
+    iframe
+    {
+        display: block;
+        text-align:center;
+        margin: $spacing-unit * 2 auto 0 auto;
+    }
+}
 
 .post-image-lightbox
 {

@@ -5,11 +5,12 @@ date:   2015-06-02 15:40:23
 categories: projects 
 ---
 
-<img src="{{"/assets/projects/hyu/symbol.jpg" | prepend: site.baseurl }}" class="post-logo" />During the periods of 2005-2007 and 2010-2012, I had studied Electronic and Computer Engineering at Hanyang University as an undergraduate student. This article introduces some courses I have taken at HYU.
+<img src="{{"/assets/projects/hyu/symbol.jpg" | prepend: site.baseurl }}" class="post-logo" />During the periods of 2005-2007 and 2010-2012, I had studied Electronic and Computer Engineering at Hanyang University as an undergraduate student. This article introduces some courses I attended at HYU.
 
 <div style="clear:both"></div>
 
 <!-- more -->
+
 Below is the list of some courses I had taken in HYU.
 
 - Algorithm (A)
