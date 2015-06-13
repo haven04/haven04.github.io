@@ -23,7 +23,7 @@ Using sound as a medium of data transmission has some advantages. With sound, a 
 
 It employed techniques widely used in modern communication systems such as OFDM, which is already applied for LTE and DTV. Therefore, faster transmission speed and high-robustness against noise comparing to other similar approaches are achieved. With the system, the devices can send 25 Bytes of data under 860Hz of bandwidth in a second. It means that 8 bytes of (shorten) URL can be transmitted to other devices before 0.3 second. 
 
-The "TAPIR Sound Tag" is developed as a software API supporting multi-platforms (iOS/Android) including SIMD(ARM NEON) instructions, thus application developers can easily adopt this idea to their mobile applications.
+The "TAPIR Sound Tag" is developed as a software API (based on C++) supporting multi-platforms (iOS/Android) including SIMD(ARM NEON) instructions for its performance, thus application developers can easily adopt this idea to their mobile applications.
 
 ### TAPIR Guide - Location-aware Mobile Guide System
 
@@ -32,18 +32,18 @@ As described, "TAPIR Sound Tag" can be applied for various fields. Especially, i
 ![TAPIR Guide]({{"/assets/projects/tapir/guide_workflow.jpg" | prepend: site.baseurl }})
 
 
-The idea is first suggested in the conference "Museum and the Web 2013". In 2014, this technique is applied for mobile applications for real exhibitions in two museums; *Lee Ungno Museum* in Daejeon, Korea and *Pétit Palais* in Paris, France, in cooperations with museum associations and mobile App. companies. Below videos show how it works.
+The idea is first suggested in the conference "Museum and the Web 2013". In cooperations with museum associations and mobile App. companies in 2014. The  TAPIR Sound Tag is applied for mobile guide applications for exhibitions in two museums; *Lee Ungno Museum* in Daejeon, Korea and *Petit Palais* in Paris, France. Below videos show how these works.
 
 <div class="post-video">
 <iframe frameborder="0" width="480" height="270" style="align:center" src="//www.dailymotion.com/embed/video/x218ddd" allowfullscreen></iframe>
-User guide for the application in Pétit Palais (French)
+User guide for the application in Petit Palais, Paris Musées (French)
 </div>
 
 <div class="post-video">
 <iframe width="480" height="270" src="https://www.youtube.com/embed/OM8yIDJfM-o" frameborder="0" allowfullscreen></iframe>
-Media report by KBS News (Korean)
+News report, KBS News (Korean)
 </div>
 
 
-If you want to have more information, please contact me through [e-mail](mailto:haven04@gmail.com).
+If you want to have more information in technical details, please contact me through [e-mail](mailto:haven04@gmail.com).
 
