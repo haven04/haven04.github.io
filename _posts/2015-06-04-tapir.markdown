@@ -19,7 +19,7 @@ thumbnail: /assets/projects/tapir/tapir_spectrum.png
 Using sound as a medium of data transmission has some advantages. With sound, a large broadcasting network can be built instantly without expensive equipments, but only loudspeakers. Moreover, it does not occupy network bandwidth for communication. These properties can be attractive especially in certain situations such as stadiums or concert halls, where a large amount people are and local data network cannot afford all network traffics of them.
 
 
-![Workflow]({{"/assets/projects/tapir/tapir_workflow.jpg" | prepend: site.baseurl }})
+![TAPIR Sound Tag, Scheme]({{"/assets/projects/tapir/tapir_scheme.jpg" | prepend: site.baseurl }})
 
 It employed techniques widely used in modern communication systems such as OFDM, which is already applied for LTE and DTV. Therefore, faster transmission speed and high-robustness against noise comparing to other similar approaches are achieved. With the system, the devices can send 25 Bytes of data under 860Hz of bandwidth in a second. It means that 8 bytes of (shorten) URL can be transmitted to other devices before 0.3 second. 
 
