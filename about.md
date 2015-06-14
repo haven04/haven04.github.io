@@ -4,11 +4,11 @@ title: About
 permalink: /about/
 ---
 
-####Hello, I am Jimin.
+####Hello, I'm Jimin.
 
-I am a software developer have worked in IT startup industries in Korea and Switzerland. 
+I'm a software developer have worked in IT startup industries in Korea and Switzerland. 
 
-Besides my strong interest in software engineering, I have conducted research on various digital media and interactive user experience, Especially related on music and sound, such as audio synthesis, musical interfaces, and audiovisual art. 
+Besides my strong interest in software engineering, I have conducted research on various digital media and interactive user experience, Especially related on music and sound, such as interaction design, audio synthesis, musical interfaces, and audiovisual art. 
 
 <div class="contact">
 <h5 class="contact-title">If you have interest in more details, please feel free to contact me via below.</h5>
