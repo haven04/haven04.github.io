@@ -4,6 +4,8 @@ title:  "TAPIR Sound Tag / TAPIR Guide"
 date:   2015-06-04 15:40:23
 categories: projects 
 thumbnail: /assets/projects/tapir/tapir_spectrum.png
+redirect_from:
+    - /tapir/
 ---
 
 "TAPIR Sound Tag" is a software framework that allows users to communicate data signals through "Theoritically Audible, but Practically Inaudible Range" (TAPIR) of sound. This can be used for developing various applications. 
