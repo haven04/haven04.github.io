@@ -33,7 +33,7 @@ As described, "TAPIR Sound Tag" can be applied for various fields. Especially, i
 
 ![TAPIR Guide]({{"/assets/projects/tapir/guide_workflow.jpg" | prepend: site.baseurl }})
 
-The idea was first suggested in the conference "Museum and the Web 2013". In February and April in 2014, the mobile applications using TAPIR Sound Tag framework were released for two major museums in Korea (*Lee Ungno Museum* in Daejeon) and France (*Petit Palais* in Paris), in cooperations with museum associations (*Goam Art & Culture Foundation* and *Palais Musées*) and mobile applications companies (*YZ interactive* and [*smartApps*](http://smartapps.fr/)). Below videos introduce how these apps work.
+The idea was first suggested in the conference "Museum and the Web 2013". In February and April in 2014, the mobile applications using TAPIR Sound Tag framework were released for two major museums in Korea (*Lee Ungno Museum* in Daejeon) and France (*Petit Palais* in Paris), in cooperations with museum associations (*Goam Art & Culture Foundation* and *Paris Musées*) and mobile applications companies (*YZ interactive* and [*smartApps*](http://smartapps.fr/)). Below videos introduce how these apps work.
 
 <div class="post-video">
 <iframe frameborder="0" width="480" height="270" style="align:center" src="//www.dailymotion.com/embed/video/x218ddd" allowfullscreen></iframe>
