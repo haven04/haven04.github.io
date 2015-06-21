@@ -11,7 +11,7 @@ categories: projects
 
 <!-- more -->
 
-Below is the list of some courses I had taken in HYU.
+Below is the list of some major courses I had taken in HYU.  
 
 - Algorithm (A)
 - Digital Image Processing (A+)
@@ -26,7 +26,7 @@ Below is the list of some courses I had taken in HYU.
 - Electronic Circuits Design (A)
 - Embedded Systems
 
-Followings are the part of projects I did, including term projects for the courses. 
+Some of these courses required term-projects. Followings are the brief introductions of the projects and the capstone project for graduation. 
 
 <div class="post-content-blk" markdown="1">
 #### 3D Model Reconstruction with a Monocular Camera (incomplete)
@@ -67,6 +67,6 @@ This project is well-known Reversi game made with 3D-graphics. This also support
 <a href="{{ "/assets/projects/hyu/fft_2.png" | prepend: site.baseurl }} " data-lightbox="fft">![screenshot #2]({{"/assets/projects/hyu/fft_2.png" | prepend: site.baseurl }})</a>
 </div>
 
-- Audio file I/O, Fourier transform implementations
+- Audio file I/O (.wav interpreter), Fourier transform implementations
 - C++, Objective C and Cocoa Frameworks for UI
 </div>
