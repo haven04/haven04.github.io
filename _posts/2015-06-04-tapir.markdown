@@ -18,14 +18,14 @@ redirect_from:
 
 "TAPIR Sound Tag" is the patent-pending technology (in South Korea), which allows modern mobile devices to communicate digital data using specific frequency range of sound above human-auditory range.
 
-Using sound as a medium of data transmission has some advantages. With sound, a large broadcasting network can be built instantly without expensive equipments, but only loudspeakers. Moreover, it does not occupy network bandwidth for communication. These properties can be attractive especially in certain situations such as stadiums or concert halls, where a large amount people are and local data network cannot afford all network traffics of them.
+Using sound as a medium of data transmission has some advantages. With sound, a large broadcasting network like a TV network can be built instantly without expensive equipments, but only loudspeakers. Moreover, it does not occupy network bandwidth for communication. These properties can be attractive especially in certain facilities with well equipped sound systems such as stadiums or concert halls, where a large amount people are located and local data network often cannot afford all data traffics. With this system, it is allowed to send some information to every user's mobile devices.
 
-
+### Technical Details
 ![TAPIR Sound Tag, Scheme]({{"/assets/projects/tapir/tapir_scheme.jpg" | prepend: site.baseurl }})
 
-It employed techniques widely used in modern communication systems such as OFDM, which is already applied for LTE and DTV. Therefore, faster transmission speed and high-robustness against noise comparing to other similar approaches are achieved. Powered by own-developed software DSP modules and underlying SIMD(NEON) instructions, the devices can send 25 Bytes of data under 860Hz of bandwidth in a second. It means that 8 bytes of (shorten) URL can be transmitted to other devices before 0.3 seconds. 
+It employed techniques widely used in modern communication systems such as OFDM, which is already applied for LTE and DTV. Therefore, faster transmission speed and high-robustness against noise comparing to other similar approaches are achieved. Powered by own-developed software DSP modules and underlying SIMD(NEON) instructions, the devices can send 25 Bytes of data under 860Hz of audio bandwidth in a second. It means that 8 bytes of (shorten) URL can be transmitted to other devices before 0.3 seconds. 
 
-Since the "TAPIR Sound Tag" is developed as a software API (based on C++) supporting multi-platforms (iOS/Android), application developers can easily adopt this idea to their mobile applications.
+Since the "TAPIR Sound Tag" framework offers well-designed software API based on C++. Application developers for mobile platforms (iOS/Android) can easily adopt their idea to the mobile applications without advanced knowledge in signal processing or audio engineering.
 
 ### TAPIR Guide - Location-aware Mobile Guide System
 

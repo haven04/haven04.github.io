@@ -73,15 +73,14 @@ with Dae Ryong Hong and Woon Seung Yeo
 
 This interactive artwork using multiple mobile phones makes music with movement of audiences in front. Individual and comprehensive movements of the images captured are converted to resources of music in real-time.
 
-- Programming using iOS, OpenCV, openFrameworks, and Max/MSP
+- Client-side development (iOS) with OpenCV, openFrameworks, and Max/MSP
 </div>
 
 <div class="post-content-blk" markdown='1'>
 ###Standardization of Recording Techniques for Korean Traditional Instruments
-<p class="post-annotation">Government project; 2012-2014<br />AIM Lab, KAIST</p>
+<p class="post-annotation">Government-led project; 2012-2014<br />AIM Lab, KAIST</p>
 
 This project was led by Korea Creative Content Agency (Kocca). The goal of this project is to find the optimal recording techniques for Korean traditional musical instruments.
 
 For the project, I researched various recording methods generally used in the industry and applied those methods to record sound of the instruments in different environments. Through experiments and sound spectrum analysis, the most optimal recording methods depending on the environments were suggested.
-
 </div>
