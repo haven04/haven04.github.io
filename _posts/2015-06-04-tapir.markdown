@@ -23,7 +23,7 @@ Using sound as a medium of data transmission has some advantages. With sound, a 
 
 ![TAPIR Sound Tag, Scheme]({{"/assets/projects/tapir/tapir_scheme.jpg" | prepend: site.baseurl }})
 
-It employed techniques widely used in modern communication systems such as OFDM, which is already applied for LTE and DTV. Therefore, faster transmission speed and high-robustness against noise comparing to other similar approaches are achieved. With the system, the devices can send 25 Bytes of data under 860Hz of bandwidth in a second. It means that 8 bytes of (shorten) URL can be transmitted to other devices before 0.3 second.  
+It employed techniques widely used in modern communication systems such as OFDM, which is already applied for LTE and DTV. Therefore, faster transmission speed and high-robustness against noise comparing to other similar approaches are achieved. Powered by own-developed software DSP modules and underlying SIMD(NEON) instructions, the devices can send 25 Bytes of data under 860Hz of bandwidth in a second. It means that 8 bytes of (shorten) URL can be transmitted to other devices before 0.3 seconds. 
 
 Since the "TAPIR Sound Tag" is developed as a software API (based on C++) supporting multi-platforms (iOS/Android), application developers can easily adopt this idea to their mobile applications.
 
