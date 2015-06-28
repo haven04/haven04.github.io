@@ -8,7 +8,7 @@ redirect_from:
     - /tapir/
 ---
 
-"TAPIR Sound Tag" is a software framework that allows users to communicate data signals through "Theoritically Audible, but Practically Inaudible Range" (TAPIR) of sound. This can be used for developing various applications. 
+"TAPIR Sound Tag" is a software framework that allows users to communicate data signals through "Theoretically Audible, but Practically Inaudible Range" (TAPIR) of sound. This can be used for developing various applications. 
 
 <!-- more -->
 
@@ -23,9 +23,9 @@ Using sound as a medium of data transmission has some advantages. With sound, a 
 
 ![TAPIR Sound Tag, Scheme]({{"/assets/projects/tapir/tapir_scheme.jpg" | prepend: site.baseurl }})
 
-It employed techniques widely used in modern communication systems such as OFDM, which is already applied for LTE and DTV. Therefore, faster transmission speed and high-robustness against noise comparing to other similar approaches are achieved. With the system, the devices can send 25 Bytes of data under 860Hz of bandwidth in a second. It means that 8 bytes of (shorten) URL can be transmitted to other devices before 0.3 second. 
+It employed techniques widely used in modern communication systems such as OFDM, which is already applied for LTE and DTV. Therefore, faster transmission speed and high-robustness against noise comparing to other similar approaches are achieved. With the system, the devices can send 25 Bytes of data under 860Hz of bandwidth in a second. It means that 8 bytes of (shorten) URL can be transmitted to other devices before 0.3 second.  
 
-The "TAPIR Sound Tag" is developed as a software API (based on C++) supporting multi-platforms (iOS/Android) including SIMD(ARM NEON) instructions for its performance, thus application developers can easily adopt this idea to their mobile applications.
+Since the "TAPIR Sound Tag" is developed as a software API (based on C++) supporting multi-platforms (iOS/Android), application developers can easily adopt this idea to their mobile applications.
 
 ### TAPIR Guide - Location-aware Mobile Guide System
 
