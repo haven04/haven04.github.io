@@ -84,3 +84,18 @@ This project was led by Korea Creative Content Agency (Kocca). The goal of this 
 
 For the project, I researched various recording methods generally used in the industry and applied those methods to record sound of the instruments in different environments. Through experiments and sound spectrum analysis, the most optimal recording methods depending on the environments were suggested.
 </div>
+
+<div class="post-content-blk" markdown='1'>
+###Smart Chin Chin: Serious Game Design for Building Teamwork based on Psychology and Digital communication Analysis
+<p class="post-annotation">KAIST High-Risk High-Return Project (HRHRP) Candidate 2013; CI Lab, KAIST</p>
+
+<div class="post-image-lightbox" markdown="1"><a href="{{ "/assets/projects/kaist/chinchin.jpg" | prepend: site.baseurl }} " data-lightbox="chinchin">![SmartChinChin-screenshot #1]({{"/assets/projects/kaist/chinchin.jpg" | prepend: site.baseurl }})</a>
+</div>
+
+Research project to experiment how the instant on-line communication can affect the intimacy of a real-world relationship
+
+- Developed a web application for UX experiments, supports upload/read articles with instantly drawn images and notify update to users through WebSocket
+- Node.js, mongoDB, HTML5 (WebSocket) and Twitter Bootstrap
+
+</div>
+
