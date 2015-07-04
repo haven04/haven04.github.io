@@ -71,7 +71,7 @@ with Dae Ryong Hong and Woon Seung Yeo
 <a href="{{ "/assets/projects/kaist/sanus_2.jpg" | prepend: site.baseurl }} " data-lightbox="sanus">![Sanus-screenshot #2]({{"/assets/projects/kaist/sanus_2.jpg" | prepend: site.baseurl }})</a>
 </div>
 
-This interactive artwork using multiple mobile phones makes music with movement of audiences in front. Individual and comprehensive movements of the images captured are converted to resources of music in real-time.
+This interactive artwork using multiple mobile phones to make music based on the movement of the audiences in front. Individual and comprehensive movements of the images captured are converted to resources of music in real-time.
 
 - Client-side development (iOS) with OpenCV, openFrameworks, and Max/MSP
 </div>
