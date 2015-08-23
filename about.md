@@ -6,7 +6,7 @@ permalink: /about/
 
 ####Hello, I'm Jimin.
 
-I'm a software developer with a background in the IT startup industry in Korea and Switzerland. 
+I'm a software developer have worked in IT industry in Korea and Switzerland. 
 
 Besides my strong interest in software engineering, I have conducted research on various digital media and interactive user experience especially those related to music and sound, with interaction design, audio synthesis, musical interfaces, and audiovisual art. 
 
