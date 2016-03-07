@@ -8,6 +8,10 @@ redirect_from:
     - /tapir/
 ---
 
+**[Updated on Mar 07. 2016]**
+The source code is now available at https://github.com/haven04/tapir
+
+
 "TAPIR Sound Tag" is a software framework that allows users to communicate data signals through "Theoretically Audible, but Practically Inaudible Range" (TAPIR) of sound. This can be used for developing various applications. 
 
 <!-- more -->
