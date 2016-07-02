@@ -2,29 +2,32 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
-// @import url(http://fonts.googleapis.com/css?family=Fjalla+One);
-@import url(http://fonts.googleapis.com/css?family=Slabo+27px|Slabo+13px&subset=latin,latin-ext);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700);
-// @import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700);
 
 // Our variables
-$sans-serif-font-family: 'Open Sans', sans-serif;
-$serif-font-family: 'Slabo 13px', serif;
-$serif-font-family2: 'Slabo 27px', serif;
+$Ahamono-font: 'AHAMONO-Regular';
+$Ahamono-path: '{{ baseurl }}/assets/fonts/AHAMONO-Regular.woff';
+@font-face {
+  font-family: 'AHAMONO-Regular';
+  src: url($Ahamono-path) format('woff'), /* Pretty Modern Browsers */
+}
+
+$sans-serif-font-family: 'Consolas', sans-serif;
+$serif-font-family: 'Courier New', serif;
+$serif-font-family2: 'Courier New', serif;
 $header-font-family: $serif-font-family2;
 $header-font-family2: $serif-font-family;
 
 $base-font-family: $serif-font-family;
 $title-font-family: $sans-serif-font-family;
 
-$base-font-size:   14px;
+$base-font-size:   12px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
 $spacing-unit:     10px;
 
 $text-color:       #111;
-$background-color: #fff;
+$background-color: #f0f0f0;
 $brand-color:      #337ab7;
 
 $grey-color:       #828282;

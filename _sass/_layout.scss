@@ -2,6 +2,12 @@
  * Site header
  */
 
+.site-sidebar {
+    display: inline-block;
+    vertical-align: top;
+    margin-top:15px;
+    width: 120px;
+}
 
 .site-header {
     text-align:center;
@@ -109,6 +115,7 @@
  * Page content
  */
 .page-content {
+    display: inline-block;
     padding: $spacing-unit*2 0;
 }
 
