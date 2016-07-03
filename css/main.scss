@@ -4,21 +4,14 @@
 @charset "utf-8";
 
 // Our variables
-$Ahamono-font: 'AHAMONO-Regular';
-$Ahamono-path: '{{ baseurl }}/assets/fonts/AHAMONO-Regular.woff';
-@font-face {
-  font-family: 'AHAMONO-Regular';
-  src: url($Ahamono-path) format('woff'), /* Pretty Modern Browsers */
-}
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
 
-$sans-serif-font-family: 'Consolas', sans-serif;
-$serif-font-family: 'Courier New', serif;
-$serif-font-family2: 'Courier New', serif;
-$header-font-family: $serif-font-family2;
-$header-font-family2: $serif-font-family;
+$monospace-font-family: 'Menlo', 'Consolas', monospace;
+$monospace-font-family-header: 'Inconsolata', monospace;
 
-$base-font-family: $serif-font-family;
-$title-font-family: $sans-serif-font-family;
+$base-font-family: $monospace-font-family;
+$header-font-family: $monospace-font-family-header;
+$title-font-family: $monospace-font-family-header;
 
 $base-font-size:   12px;
 $small-font-size:  $base-font-size * 0.875;
@@ -27,7 +20,7 @@ $base-line-height: 1.5;
 $spacing-unit:     10px;
 
 $text-color:       #111;
-$background-color: #f0f0f0;
+$background-color: #F7F4F8;
 $brand-color:      #337ab7;
 
 $grey-color:       #828282;
@@ -41,9 +34,13 @@ $on-palm:          600px;
 $on-laptop:        800px;
 
 
-$hyperlink-color: #337ab7;
-$hyperlink-color-activated: #E8880C; 
 
+
+// $hyperlink-color: #337ab7;
+// $hyperlink-color-activated: #E8880C; 
+
+$hyperlink-color: #0E6C8F;
+$hyperlink-color-activated: #C2002A; 
 
 // Using media queries with like this:
 // @include media-query($on-palm) {

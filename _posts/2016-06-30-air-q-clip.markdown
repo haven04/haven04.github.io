@@ -1,13 +1,11 @@
 ---
-layout: post-project
+layout: post
 title:  "Air-Q Clip"
-date:   2015-06-03 15:40:23
-categories: projects 
+date:   2013-06-30 00:00:00
+categories: posts
 ---
 
 <div class="post-content-blk" markdown='1'>
-###Air-Q Clip
-<p class="post-annotation">Coursework; GCT501/Introduction to Culture Technology, Spring 2013 <br />with Sunga Jang and Aram Min.</p>
 
 <a href="{{ "/assets/projects/kaist/airq_1.jpg" | prepend: site.baseurl }} " data-lightbox="airq">![AirQClip-screenshot #1]({{"/assets/projects/kaist/airq_1.jpg" | prepend: site.baseurl }})</a>
 <!--
@@ -20,4 +18,4 @@ The Air-Q clip is a prototype wearable device, a *"PM2.5 dust-sensor clip that m
 
 Lilipad Arduino / Sharp GP2Y1010AU0F
 
-GCT501(Spring 2013), KAIST; with Sunga Jang and Deedee Aram Min.
+<p class="post-annotation">Coursework; GCT501/Introduction to Culture Technology, Spring 2013, GSCT KAIST<br />with Sunga Jang and Aram Min.</p></div>

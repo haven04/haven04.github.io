@@ -1,8 +1,8 @@
 ---
-layout: post-project
+layout: post-own
 title:  "TAPIR Sound Tag / TAPIR Guide"
 date:   2015-06-04 15:40:23
-categories: projects 
+categories: posts
 thumbnail: /assets/projects/tapir/tapir_spectrum.png
 redirect_from:
     - /tapir/
@@ -50,4 +50,3 @@ News report, KBS News (Korean)
 
 
 If you want to have more information in technical details, please contact me through [e-mail](mailto:haven04@gmail.com).
-

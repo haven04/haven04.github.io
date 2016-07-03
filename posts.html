@@ -1,29 +1,34 @@
 ---
 layout: default 
-title: Projects
-permalink: /projects/
+title: Posts
+permalink: /posts/
 ---
 <div class="home">
-  <h1 class="page-heading">Things I've Done</h1>
+  <h1 class="post-title">Posts</h1>
   <ul class="post-list">
     {% for post in site.posts%}
-    {% if post.categories contains site.category-projects %}
       <li>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
         <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          {{ post.title }}
         </h2>
-        <div>
+        <p class="post-date">
+        {{post.date | date: "%b %-d, %Y"}}
+        </p>
+        <p class="wrapper-excerpt-text">
+          {{post.excerpt | strip_html | truncatewords:30}}
+        </p>
+        <!--<div>
           {% if post.thumbnail%}
           <div class="wrapper-excerpt-img"><img src="{{ post.thumbnail }}" class="img-excerpt"/></div>
           {% endif %}
-
           <div class="wrapper-excerpt-text">
           {{post.excerpt | strip_html | truncatewords:30}}
-          </div>
-        </div>
+          </div> 
+        </div> -->
         <div style="clear:both"></div>
+        </a>
       </li>
-    {% endif %}
     {% endfor %}
   </ul>
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
