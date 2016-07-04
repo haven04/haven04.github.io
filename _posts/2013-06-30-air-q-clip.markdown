@@ -5,17 +5,18 @@ date:   2013-06-30 00:00:00
 categories: posts
 ---
 
-<div class="post-content-blk" markdown='1'>
-
+<div class="post-image-lightbox" markdown="1">
 <a href="{{ "/assets/projects/kaist/airq_1.jpg" | prepend: site.baseurl }} " data-lightbox="airq">![AirQClip-screenshot #1]({{"/assets/projects/kaist/airq_1.jpg" | prepend: site.baseurl }})</a>
 <!--
 <a href="{{ "/assets/projects/kaist/airq_2.jpg" | prepend: site.baseurl }} " data-lightbox="airq">![AirQClip-screenshot #2]({{"/assets/projects/kaist/airq_2.jpg" | prepend: site.baseurl }})</a>
 <a href="{{ "/assets/projects/kaist/airq_3.jpg" | prepend: site.baseurl }} " data-lightbox="airq">![AirQClip-screenshot #3]({{"/assets/projects/kaist/airq_3.jpg" | prepend: site.baseurl }})</a>
-<a href="{{ "/assets/projects/kaist/airq_4.jpg" | prepend: site.baseurl }} " data-lightbox="airq">![AirQClip-screenshot #4]({{"/assets/projects/kaist/airq_4.jpg" | prepend: site.baseurl }})</a>
 -->
+<a href="{{ "/assets/projects/kaist/airq_4.jpg" | prepend: site.baseurl }} " data-lightbox="airq">![AirQClip-screenshot #4]({{"/assets/projects/kaist/airq_4.jpg" | prepend: site.baseurl }})</a>
+</div>
 
 The Air-Q clip is a prototype wearable device, a *"PM2.5 dust-sensor clip that monitors the quality of the air you breathe."* This prototype is designed to look the same as an usual hairpin, except that it has a feature allowing users to monitor the air quality of the space instantly. By only clicking a button, it shows the amount of fine particles (smaller than 2.5 micrometers in diameter) in the atmosphere through LED indicators.
 
-Lilipad Arduino / Sharp GP2Y1010AU0F
+- Hardware circuit & software design
+- Lilipad Arduino / Sharp GP2Y1010AU0F
 
-<p class="post-annotation">Coursework; GCT501/Introduction to Culture Technology, Spring 2013, GSCT KAIST<br />with Sunga Jang and Aram Min.</p></div>
+<p class="post-annotation">Coursework; GCT501/Introduction to Culture Technology, Spring 2013, GSCT KAIST<br />with Sunga Jang and Aram Min.</p>

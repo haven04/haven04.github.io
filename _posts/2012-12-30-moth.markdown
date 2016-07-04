@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "MoTh (Mobile Theremin)"
+date:   2012-12-30 00:00:00
+categories: posts
+---
+
+
+<div class="post-image-lightbox" markdown="1">
+<a href="{{ "/assets/projects/kaist/moth_1.jpg" | prepend: site.baseurl }} " data-lightbox="moth">![MoTh-screenshot #1]({{"/assets/projects/kaist/moth_1.jpg" | prepend: site.baseurl }})</a>
+<a href="{{ "/assets/projects/kaist/moth_2.jpg" | prepend: site.baseurl }} " data-lightbox="moth">![MoTh-screenshot #2]({{"/assets/projects/kaist/moth_2.jpg" | prepend: site.baseurl }})</a>
+<a href="{{ "/assets/projects/kaist/moth_3.jpg" | prepend: site.baseurl }} " data-lightbox="moth">![MoTh-screenshot #3]({{"/assets/projects/kaist/moth_3.jpg" | prepend: site.baseurl }})</a>
+<a href="{{ "/assets/projects/kaist/moth_4.jpg" | prepend: site.baseurl }} " data-lightbox="moth">![MoTh-screenshot #4]({{"/assets/projects/kaist/moth_4.jpg" | prepend: site.baseurl }})</a>
+</div>
+
+MoTh is a mobile App. as well as a multi-layered musical interface. 
+The camera and sensors in the mobile phone sense shapes and gestures of user's both hands in real-time. The collected information then converted into parameters for synthesizing sound.
+
+- iOS(Cocoa Frameworks), OpenCV, Momu toolkit, and Max/MSP
+
+<p class="post-annotation">Coursework; GCT633/Audio &amp; Multimedia Programming, Fall 2012.</p>

@@ -9,7 +9,7 @@ permalink: /about/
 
 I'm a software engineer currently working in Seoul, South Korea.
 
-Besides my strong interest in software engineering and the state-of-the-art technologies, I have conducted research on various digital media and interactive user experience especially those related to music and sound, with interaction design, audio synthesis, musical interfaces, and audiovisual art.
+Besides my strong interest in software engineering and the state-of-the-art technologies, I have conducted research on various HCI fields, such as digital media and interactive user experience especially those related to music and sound.
 
 [<i class="fa fa-envelope-o"></i><span class="contact-addr">contact@jiminis.me</span>](mailto:contact@jiminis.me)
 

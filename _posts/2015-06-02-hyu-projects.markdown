@@ -1,7 +1,7 @@
 ---
 layout: post-own
 title:  "Coursework in Hanyang University"
-date:   2015-06-02 15:40:23
+date:   2012-08-01 15:40:23
 categories: posts
 ---
 

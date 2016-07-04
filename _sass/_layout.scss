@@ -311,12 +311,11 @@
 
 .post-image-lightbox
 {
+    text-align: center;
     img
     {
         display: inline-block;
-        max-height: 100px;
-        max-width:20%;
-        margin-left: $spacing-unit;
+        width:40%;
         box-shadow: 2px 2px 5px #888888;
         transition: all 0.3s;
         @include media-query($on-laptop) {

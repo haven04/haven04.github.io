@@ -1,7 +1,7 @@
 ---
 layout: post-own
 title:  "TAPIR Sound Tag / TAPIR Guide"
-date:   2015-06-04 15:40:23
+date:   2014-08-30 00:00:00
 categories: posts
 thumbnail: /assets/projects/tapir/tapir_spectrum.png
 redirect_from:
