@@ -1,8 +1,8 @@
 ---
-layout: post-project
+layout: post-own
 title:  "Projects in KAIST"
 date:   2015-06-03 15:40:23
-categories: projects 
+categories: posts
 ---
 
 <img src="{{"/assets/projects/kaist/logo.gif" | prepend: site.baseurl }}" class="post-logo" />

@@ -4,16 +4,18 @@ title: About
 permalink: /about/
 ---
 
-####Hello, I'm Jimin.
+<div class='contact' markdown='1'>
+<h3 class="contact-title">Hi, I'm Jimin.</h3>
 
-I'm a software engineer currently working in Seoul, South Korea.  
+I'm a software engineer currently working in Seoul, South Korea.
 
-Besides my strong interest in software engineering, I have conducted research on various digital media and interactive user experience especially those related to music and sound, with interaction design, audio synthesis, musical interfaces, and audiovisual art. 
+Besides my strong interest in software engineering and the state-of-the-art technologies, I have conducted research on various HCI fields, such as digital media and interactive user experience especially those related to music and sound.
 
-<div class="contact">
-<h5 class="contact-title">If you have interest in more detail, please feel free to contact me via below.</h5>
+[<i class="fa fa-envelope-o"></i><span class="contact-addr">contact@jiminis.me</span>](mailto:contact@jiminis.me)
 
-<p><a href="mailto:contact@jiminis.me"><i class="fa fa-envelope-o"></i> <span class="contact-addr"> contact@jiminis.me</span></a></p>
-<p><a href="http://github.com/haven04" target="_blank"><i class="fa fa-github"></i> <span class="contact-addr">http://github.com/haven04</span></a></p>
-<p><a href="https://www.linkedin.com/in/jiminjeon" target="_blank"><i class="fa fa-linkedin-square"></i> <span class="contact-addr">https://www.linkedin.com/in/jiminjeon</span></a></p>
+[<i class="fa fa-github"></i><span class="contact-addr">http://github.com/haven04</span>](http://github.com/haven04){:target="_blank"}
+
+[<i class="fa fa-linkedin-square"></i><span class="contact-addr">https://www.linkedin.com/in/jiminjeon</span>](https://www.linkedin.com/in/jiminjeon){:target="_blank"}
+
 </div>
+

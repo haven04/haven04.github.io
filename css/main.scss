@@ -2,29 +2,25 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
-// @import url(http://fonts.googleapis.com/css?family=Fjalla+One);
-@import url(http://fonts.googleapis.com/css?family=Slabo+27px|Slabo+13px&subset=latin,latin-ext);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700);
-// @import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700);
 
 // Our variables
-$sans-serif-font-family: 'Open Sans', sans-serif;
-$serif-font-family: 'Slabo 13px', serif;
-$serif-font-family2: 'Slabo 27px', serif;
-$header-font-family: $serif-font-family2;
-$header-font-family2: $serif-font-family;
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
 
-$base-font-family: $serif-font-family;
-$title-font-family: $sans-serif-font-family;
+$monospace-font-family: 'Menlo', 'Consolas', monospace;
+$monospace-font-family-header: 'Inconsolata', monospace;
 
-$base-font-size:   14px;
+$base-font-family: $monospace-font-family;
+$header-font-family: $monospace-font-family-header;
+$title-font-family: $monospace-font-family-header;
+
+$base-font-size:   12px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
 $spacing-unit:     10px;
 
 $text-color:       #111;
-$background-color: #fff;
+$background-color: #F7F4F8;
 $brand-color:      #337ab7;
 
 $grey-color:       #828282;
@@ -38,9 +34,13 @@ $on-palm:          600px;
 $on-laptop:        800px;
 
 
-$hyperlink-color: #337ab7;
-$hyperlink-color-activated: #E8880C; 
 
+
+// $hyperlink-color: #337ab7;
+// $hyperlink-color-activated: #E8880C; 
+
+$hyperlink-color: #0E6C8F;
+$hyperlink-color-activated: #C2002A; 
 
 // Using media queries with like this:
 // @include media-query($on-palm) {

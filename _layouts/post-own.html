@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<div class="post">
+  {% include post-common-header.html %}
+  <article class="post-content">
+    {{ content }}
+  </article>
+
+  <div class="post-license">©
+  {% assign page-year = page.date | date : "%Y" %}
+  {% assign site-year = site.time | date : "%Y" %}
+  {% if page-year != site-year %}
+    {{page-year}} - 
+  {% endif %}
+  {{site-year}} Jimin Jeon. All right reserved. 
+  </div>
+  
+  {% include post-common-footer.html %}
+</div>

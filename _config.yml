@@ -1,11 +1,12 @@
 # Site settings
 timezone: Asia/Seoul
-title: Jimin Jeon 
+title: Jimin Jeon
 sub-title: Software Engineer
 email: haven04@gmail.com
 description: > 
     Personal website of Jimin Jeon, a Korea-based software engineer.
 
+began-date: '2015'
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://jiminis.me" # the base hostname & protocol for your site
 
@@ -15,6 +16,5 @@ markdown: kramdown
 
 gems: ['jekyll-redirect-from']
 
-category-projects: 'projects'
-
+# category-projects: 'projects'
 excerpt_separator: "<!-- more -->"
