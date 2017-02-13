@@ -13,7 +13,7 @@ redirect_from:
 <!-- more -->
 
 **[Updated on Mar 07. 2016]**
-The source code is now available at [my github repository](https://github.com/haven04/tapir).
+The source code is now available at [my github repository](https://github.com/jiminj/tapir).
 
 ### TAPIR Sound Tag
 
@@ -49,4 +49,4 @@ News report, KBS News (Korean)
 </div>
 
 
-If you want to have more information in technical details, please contact me through [e-mail](mailto:haven04@gmail.com).
+If you want to have more information in technical details, please contact me through [e-mail](mailto:jimin@jiminis.me).
